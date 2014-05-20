@@ -4,16 +4,16 @@
     <item type="bool" name="debug_output">false</item>
 
     <!-- Property to read for ROM version -->
-    <string name="property_version">ro.delta.version</string>
+    <string name="property_version">ro.MIUI.version</string>
 
     <!-- Property to read for device identifier -->
-    <string name="property_device">ro.delta.device</string>
+    <string name="property_device">ro.MIUI.device</string>
 
     <!-- %s is expanded to property_version value. .zip, .delta, .update, .sign extensions added when needed -->
-    <string name="filename_base">delta-%s</string>
+    <string name="filename_base">MIUI-%s</string>
 
     <!-- Path deltas are stored, relative to sdcard root -->
-    <string name="path_base">OpenDelta</string>
+    <string name="path_base">MIUI-OTA</string>
 
     <!-- URL base to find .delta files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
     <string name="url_base_delta">https://delta.omnirom.org/nightlies/%s/</string>
